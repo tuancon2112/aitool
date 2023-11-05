@@ -1,0 +1,148 @@
+.header_admin {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    border-bottom: 1px solid #333333;
+    width: 100%;
+    font-size: 40px;
+}
+
+
+.body_admin {
+    position: relative;
+    top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.body_manage {
+    position: relative;
+    top: 70px;
+    width: 100%;
+}
+
+.border-bottomm {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+
+.btn-ql {
+    height: 60px;
+    border-radius: 25px;
+    background-color: #419270;
+    color: #ffffff;
+    border: 0px solid #ffffff;
+}
+
+.btn-dx {
+    border-radius: 25px;
+    height: 60px;
+    width: 100px;
+    background-color: #cb3f48;
+    margin-left: 20px;
+    color: #ffffff;
+    border: 0px solid #ffffff;
+}
+
+.body_admin-btn {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+    padding: 0 10px;
+}
+
+.btn-nhan {
+    padding: 5px 40px;
+    border-radius: 8px;
+    background-color: #f59e3a;
+    color: #fff;
+}
+
+.btn-flex {
+    display: flex;
+}
+
+.input-admin {
+    padding-inline: 10px;
+    width: 95%;
+    height: 40px;
+}
+
+.input-gen {
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    width: 100%;
+    border: 0px solid #ffffff;
+}
+
+.btn-nhn {
+    margin-top: 20px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    background-color: #637B87;
+    color: #fff;
+    
+
+}
+
+.body-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-chan {
+    border-radius: 25px;
+    background-color: #0000ff;
+    color: #fff;
+    margin-top: 5px;
+    padding: 5px 8px;
+}
+
+.btn-disable {
+    border-radius: 25px;
+    background-color: #bdbdbd;
+    color: #fff;
+    margin-top: 5px;
+    padding: 5px 8px;
+}
+
+.bg-main {
+    background: url(../image/bg_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.button-back {
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+
+/* background của nút ở trên */
+
+.bg-4btn-page1 {
+    background: url(../image/bg_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+/* background của nút ở dưới */
+
+.bg-4btn-page2 {
+    background: url(../image/bg_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
