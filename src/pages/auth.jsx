@@ -80,7 +80,7 @@ const Auth = () => {
                   fontWeight: "bold",
                 }}
               >
-                TOOL AI 8.0
+                TOOL AI 6.0
               </h2>
             </div>
             {path.pathname == "/login" && <Login error={error} />}
